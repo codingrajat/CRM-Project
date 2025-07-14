@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Symbols+Sharp" />
+    <title>CRM - Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <div class="mainleft">
+            <div class="logo">
+                <img src="https://www.trust-techinnovations.in/uploads/logo/1819234637518922.png" alt="logo" />
+            </div>
+            <div class="sidebar">
+                <a href="#"><span class="material-symbols-sharp">grid_view</span><h3>DASHBOARD</h3></a>
+                <a href="#"><span class="material-symbols-sharp">message</span><h3>MESSAGE</h3></a>
+                <a href="#"><span class="material-symbols-sharp">person</span><h3>Customers</h3></a>
+                <a href="#"><span class="material-symbols-sharp">report</span><h3>Report</h3></a>
+                <a href="#"><span class="material-symbols-sharp">insights</span><h3>Analytics</h3></a>
+                <a href="#"><span class="material-symbols-sharp">settings</span><h3>Settings</h3></a>
+                <a href="#"><span class="material-symbols-sharp">logout</span><h3>Logout</h3></a>
+            </div>
+        </div>
+
+        <!-- Main Center -->
+        <div class="maincenter">
+            <span id="dashboard">DASHBOARD</span>
+            <div class="calender">
+                <input type="date" id="date" name="date" />
+            </div>
+            <div class="center-hor">
+                <div class="hor-box box1">
+                    <span>Total Sales</span>
+                    <span>$250</span>
+                    <span>Last 24 hrs</span>
+                </div>
+                <div class="hor-box box2">
+                    <span>Active Customers</span>
+                    <span>134</span>
+                    <span>This Week</span>
+                </div>
+                <div class="hor-box box3">
+                    <span>Pending Orders</span>
+                    <span>19</span>
+                    <span>As of Today</span>
+                </div>
+            </div>
+            <h2>Recent Orders</h2>
+            <div class="orders-table">
+                <table width="100%">
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Customer</th>
+                            <th>Status</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>#001</td><td>Ravi Kumar</td><td>Pending</td><td>$150</td></tr>
+                        <tr><td>#002</td><td>Neha Sharma</td><td>Completed</td><td>$230</td></tr>
+                        <tr><td>#003</td><td>Arjun Mehta</td><td>Processing</td><td>$95</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Right Panel -->
+        <div class="mainright">
+            <h3>Recent Activity</h3>
+            <ul>
+                <li>✔️ Payment received from Ankit</li>
+                <li>🛒 New order placed by Neha</li>
+                <li>📦 Order #002 marked completed</li>
+                <li>👤 New customer: Priya</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
